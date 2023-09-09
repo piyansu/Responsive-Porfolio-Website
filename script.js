@@ -1,13 +1,13 @@
-window.addEventListener('contextmenu', function (e) {
-  e.preventDefault();
-});
+// window.addEventListener('contextmenu', function (e) {
+//   e.preventDefault();
+// });
 
-// Disable F12 key and Ctrl+Shift+I (Cmd+Option+I on Mac) to open DevTools
-window.addEventListener('keydown', function (e) {
-  if ((e.key === 'F12' && e.ctrlKey === true) || (e.key === 'I' && e.ctrlKey === true && e.shiftKey === true)) {
-      e.preventDefault();
-  }
-});
+// // Disable F12 key and Ctrl+Shift+I (Cmd+Option+I on Mac) to open DevTools
+// window.addEventListener('keydown', function (e) {
+//   if ((e.key === 'F12' && e.ctrlKey === true) || (e.key === 'I' && e.ctrlKey === true && e.shiftKey === true)) {
+//       e.preventDefault();
+//   }
+// });
 
 // Sticky Navigation Menu JS Code
 let nav = document.querySelector("nav");

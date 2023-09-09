@@ -1,4 +1,4 @@
-/* Google Font CDN Link */
+    /* Google Font CDN Link */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
 * {
@@ -327,6 +327,7 @@ section .title span::after {
 .about-details .right {
   width: 55%;
   margin-left: -60rem;
+  text-align: justify;
 }
 
 .about-details .right p {
